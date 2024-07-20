@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 //tags="@Regression"
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources/Features", glue="com.Stepdefs",tags="@Smoke",plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", "html:target/SparkReport/ResultsReport.html","json:target/SparkReport/ResultsReport.json","rerun:target/failedrun.txt"}, monochrome=true)
+@CucumberOptions(features="src/test/resources/Features", glue="com.Stepdefs",tags="@Smoke",plugin = {"pretty","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:","json:target/SparkReport/ResultsReport.json","rerun:target/failedrun.txt"}, monochrome=true)
 
 
 
