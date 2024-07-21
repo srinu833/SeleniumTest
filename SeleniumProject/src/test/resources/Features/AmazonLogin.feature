@@ -16,11 +16,11 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-Feature: Launch functionality
+Feature: Login functionality
 
 
-  @Smoke
-  Scenario: Login
+  @Regression
+  Scenario: Login amazon
     Given User launches browser
     When User enter credentials "TestUser" and "Pwd"
     Then User Loggedin
