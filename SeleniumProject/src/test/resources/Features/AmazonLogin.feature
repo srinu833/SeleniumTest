@@ -23,4 +23,4 @@ Feature: Login functionality
   Scenario: Login amazon
     Given User launches browser
     When User enter credentials "TestUser" and "Pwd"
-    Then User Loggedin
+    Then User LoggedOut

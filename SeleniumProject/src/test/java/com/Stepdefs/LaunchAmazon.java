@@ -32,7 +32,13 @@ public class LaunchAmazon {
 		//WebDriver driver = new ChromeDriver();
 		driver.close();
 	}
-
+	@Then("User LoggedOut")
+	public void user_LoggedOut() {
+	   
+		assertEquals("Test", "Tester");
+		//WebDriver driver = new ChromeDriver();
+		driver.close();
+	}
 	
 	
 }
